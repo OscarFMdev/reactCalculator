@@ -1,0 +1,49 @@
+:root {
+  --resultBox: #858693;
+}
+
+#root {
+  display: flex;
+}
+
+.calculator,
+.gray-box,
+.operation-grid {
+  min-width: 270px;
+}
+
+.gray-box,
+.operation-grid {
+  max-width: 500px;
+}
+
+.calculator-container {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 30vh;
+}
+
+.calculator {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gray-box {
+  background-color: var(--resultBox);
+  width: 50vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.gray-box p {
+  font-size: calc(min(15vw, 55px));
+  margin: 0;
+  color: white;
+}
