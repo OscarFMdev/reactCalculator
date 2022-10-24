@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 To get a local copy, you should have installed a code editor like [Visual Studio Code](https://code.visualstudio.com/download), [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads).
 ### Setup
 To setup a local copy, you should open a terminal in the directory you want to clone this project and run:
-``` git clone  ```
+``` git clone git@github.com:OscarFMdev/mathMagicians.git ```
 ### Install
 After setting the project, now you should run ``` npm install ``` this will download all the dependecies needed for run this project.
 
