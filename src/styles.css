@@ -47,3 +47,34 @@
   margin: 0;
   color: white;
 }
+
+.operation-grid {
+  list-style: none;
+  display: grid;
+  width: 50vw;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+  background-color: red;
+}
+
+.operation-grid > * {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(min(15vw, 55px));
+}
+
+.orange-button {
+  background-color: orange;
+}
+
+.gray-button {
+  background-color: lightgray;
+}
+
+.large {
+  grid-column: span 2;
+}
