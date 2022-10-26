@@ -76,6 +76,11 @@
   background-color: var(--grayButton);
 }
 
+.orange-button:hover,
+.gray-button:hover {
+  filter: brightness(85%);
+}
+
 .large {
   grid-column: span 2;
 }
