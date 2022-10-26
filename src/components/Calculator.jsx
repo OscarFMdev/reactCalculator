@@ -1,26 +1,28 @@
 import React from 'react';
+// import calculate from '../logic/calculate';
+// import operate from '../logic/operate';
 
 const Buttons = () => (
   <>
-    <li className="gray-button">AC</li>
-    <li className="gray-button">+/-</li>
-    <li className="gray-button">%</li>
-    <li className="orange-button">÷</li>
-    <li className="gray-button">7</li>
-    <li className="gray-button">8</li>
-    <li className="gray-button">9</li>
-    <li className="orange-button">x</li>
-    <li className="gray-button">4</li>
-    <li className="gray-button">5</li>
-    <li className="gray-button">6</li>
-    <li className="orange-button">-</li>
-    <li className="gray-button">1</li>
-    <li className="gray-button">2</li>
-    <li className="gray-button">3</li>
-    <li className="orange-button">+</li>
-    <li className="gray-button large">0</li>
-    <li className="gray-button">.</li>
-    <li className="orange-button">=</li>
+    <button type="button" className="gray-button">AC</button>
+    <button type="button" className="gray-button">+/-</button>
+    <button type="button" className="gray-button">%</button>
+    <button type="button" className="orange-button">÷</button>
+    <button type="button" className="gray-button">7</button>
+    <button type="button" className="gray-button">8</button>
+    <button type="button" className="gray-button">9</button>
+    <button type="button" className="orange-button">x</button>
+    <button type="button" className="gray-button">4</button>
+    <button type="button" className="gray-button">5</button>
+    <button type="button" className="gray-button">6</button>
+    <button type="button" className="orange-button">-</button>
+    <button type="button" className="gray-button">1</button>
+    <button type="button" className="gray-button">2</button>
+    <button type="button" className="gray-button">3</button>
+    <button type="button" className="orange-button">+</button>
+    <button type="button" className="gray-button large">0</button>
+    <button type="button" className="gray-button">.</button>
+    <button type="button" className="orange-button">=</button>
   </>
 );
 
