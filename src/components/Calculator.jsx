@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 
@@ -26,42 +26,41 @@ const Buttons = ({ myFunction }) => (
   </>
 );
 
-export default class Calculator extends React.PureComponent {
-  constructor(props) {
-    super(props);
-    this.state = {
+const Calculator = () => {
+  const [display, setDisplay] = useState(0);
+  useEffect(() => {
+    setDisplay({
       total: 0,
       next: null,
       operation: null,
-    };
-  }
+    });
+  }, []);
 
-  handleClick = (e) => {
-    this.setState((state) => calculate(state, e.target.textContent));
-  }
+  const handleClick = (e) => {
+    setDisplay(calculate(display, e.target.textContent));
+  };
 
-  render() {
-    const { total, next, operation } = this.state;
-    return (
-      <section className="calculator-container">
-        <div className="calculator">
-          <div className="gray-box">
-            <p>
-              {total}
-              {operation}
-              {next}
-            </p>
-          </div>
-          <ul className="operation-grid">
-            <Buttons myFunction={this.handleClick} greet="Hello" />
-          </ul>
+  const { total, next, operation } = display;
+  return (
+    <section className="calculator-container">
+      <div className="calculator">
+        <div className="gray-box">
+          <p>
+            {total}
+            {operation}
+            {next}
+          </p>
         </div>
-      </section>
-
-    );
-  }
-}
+        <ul className="operation-grid">
+          <Buttons myFunction={handleClick} greet="Hello" />
+        </ul>
+      </div>
+    </section>
+  );
+};
 
 Buttons.propTypes = {
   myFunction: PropTypes.func.isRequired,
 };
+
+export default Calculator;
