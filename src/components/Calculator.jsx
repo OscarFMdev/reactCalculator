@@ -36,8 +36,8 @@ const Calculator = () => {
     });
   }, []);
 
-  const handleClick = (e) => {
-    setDisplay(calculate(display, e.target.textContent));
+  const handleClick = ({ target }) => {
+    setDisplay(calculate(display, target.textContent));
   };
 
   const { total, next, operation } = display;
