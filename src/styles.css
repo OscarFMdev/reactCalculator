@@ -9,6 +9,8 @@
 
 #root {
   display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 /* Header */
@@ -18,13 +20,15 @@
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  height: 10%;
 }
 
 body {
   background-color: var(--reactGray);
 }
 
-h1 {
+h1,
+h2 {
   color: white;
 }
 
@@ -36,7 +40,7 @@ nav > * {
 }
 
 .link:hover {
-  color: #f5913e;
+  color: var(--orangeButton);
 }
 
 .calculator,
@@ -55,6 +59,7 @@ nav > * {
   align-items: center;
   width: 100vw;
   height: 30vh;
+  margin-top: 100px;
 }
 
 .calculator {
@@ -66,7 +71,6 @@ nav > * {
 }
 
 .gray-box {
-  background-color: var(--resultBox);
   width: 50vw;
   height: 10vh;
   display: flex;
@@ -100,17 +104,20 @@ nav > * {
   font-size: 40px;
 }
 
-.orange-button {
+.gray-button,
+.orange-button,
+.gray-box {
+  background-color: transparent;
+  color: white;
+  border: 1px solid var(--reactBlue);
+}
+
+.orange-button:hover {
   background-color: var(--orangeButton);
 }
 
-.gray-button {
-  background-color: var(--grayButton);
-}
-
-.orange-button:hover,
 .gray-button:hover {
-  filter: brightness(85%);
+  background-color: var(--reactBlue);
 }
 
 .large {

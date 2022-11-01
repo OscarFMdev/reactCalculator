@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import calculate from '../logic/calculate';
 
 const Buttons = ({ myFunction }) => (
@@ -44,11 +43,6 @@ const Calculator = () => {
   const { total, next, operation } = display;
   return (
     <>
-      <nav>
-        <Link className="link" to="/">Home</Link>
-        <Link className="link" to="/calculator">Calculator</Link>
-        <Link className="link" to="/Quote">Quote</Link>
-      </nav>
       <section className="calculator-container">
         <div className="calculator">
           <div className="gray-box">
