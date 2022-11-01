@@ -39,7 +39,12 @@ nav > * {
   font-size: 19px;
 }
 
-.link:hover {
+.link:hover,
+.link:active {
+  color: var(--orangeButton);
+}
+
+.active {
   color: var(--orangeButton);
 }
 
