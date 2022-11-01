@@ -10,7 +10,7 @@
 #root {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 80vh;
 }
 
 /* Header */
@@ -131,10 +131,10 @@ nav > * {
   }
 
   .gray-box {
-    height: 5vh;
+    height: 8vh;
   }
 
   .operation-grid {
-    grid-template-rows: repeat(5, 5vh);
+    grid-template-rows: repeat(5, 10vh);
   }
 }
