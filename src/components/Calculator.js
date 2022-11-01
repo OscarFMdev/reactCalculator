@@ -44,6 +44,7 @@ const Calculator = () => {
   return (
     <>
       <section className="calculator-container">
+        <div className="calc-quote">Let&apos;s do dome Math!</div>
         <div className="calculator">
           <div className="result-box">
             <p>
