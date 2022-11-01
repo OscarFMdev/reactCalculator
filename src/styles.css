@@ -2,10 +2,41 @@
   --resultBox: #858693;
   --grayButton: #e0e0e0;
   --orangeButton: #f5913e;
+  --reactBlue: #61dafb;
+  --reactLightGray: #33373f;
+  --reactGray: #282c34;
 }
 
 #root {
   display: flex;
+}
+
+/* Header */
+
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+body {
+  background-color: var(--reactGray);
+}
+
+h1 {
+  color: white;
+}
+
+nav > * {
+  margin-right: 20px;
+  text-decoration: none;
+  color: var(--reactBlue);
+  font-size: 19px;
+}
+
+.link:hover {
+  color: #f5913e;
 }
 
 .calculator,
