@@ -17,9 +17,7 @@ const Quote = () => {
           },
         );
       })
-      .catch((error) => {
-        console.log(error);
-      });
+      .catch((error) => error);
   }, []);
 
   useEffect(() => {
@@ -28,9 +26,6 @@ const Quote = () => {
 
   return (
     <>
-      {
-        console.log(quote)
-      }
       <p className="quote">
         {' '}
         {quote.content}
