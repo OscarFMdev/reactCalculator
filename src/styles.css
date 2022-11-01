@@ -57,7 +57,7 @@ nav > * {
 .calculator-container {
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 95vw;
   height: 30vh;
   margin-top: 100px;
 }
