@@ -144,6 +144,34 @@ nav > * {
   grid-column: span 2;
 }
 
+/* <Quote /> */
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  font-size: 30px;
+}
+
+.quote {
+  text-align: center;
+  width: 500px;
+}
+
+.quote-section button {
+  background-color: var(--reactBlue);
+  border-style: none;
+  padding: 10px 50px;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.quote-section button:hover,
+.quote-section button:active {
+  background-color: var(--orangeButton);
+}
+
 @media screen and (max-width: 700px) {
   .blue-box p,
   .operation-grid > * {

@@ -26,14 +26,17 @@ const Quote = () => {
 
   return (
     <>
-      <p className="quote">
-        {' '}
-        {quote.content}
-      </p>
-      <p className="author">
-        {quote.author}
-        {' '}
-      </p>
+      <section className="quote-section">
+        <p className="quote">
+          {' '}
+          {quote.content}
+        </p>
+        <p className="author">
+          {quote.author}
+          {' '}
+        </p>
+        <button type="button" onClick={fetchData}>New quote</button>
+      </section>
     </>
   );
 };
