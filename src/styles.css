@@ -78,14 +78,14 @@ nav > * {
   height: 90vh;
   margin-top: 100px;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
+
 .calc-quote {
   font-size: 40px;
   margin-right: 200px;
   margin-bottom: 300px;
 }
+
 .calculator {
   height: 60vh;
   display: flex;
@@ -201,19 +201,23 @@ nav > * {
   .operation-grid {
     grid-template-rows: repeat(5, 10vh);
   }
+
   .calculator-container {
     flex-direction: column;
     margin-top: 0;
   }
+
   .calc-quote {
     margin: 20px 0;
     text-align: center;
     font-size: 25px;
   }
+
   .home {
     margin-top: 20px;
     text-align: justify;
   }
+
   .home > * {
     margin: 10px auto;
   }
