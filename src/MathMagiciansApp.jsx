@@ -3,6 +3,7 @@ import {
 } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
+import Quote from './components/Quote';
 
 const MathMagiciansApp = () => (
   <>
@@ -16,12 +17,13 @@ const MathMagiciansApp = () => (
           Home
         </NavLink>
         <NavLink className="link" to="/calculator">Calculator</NavLink>
-        <NavLink className="link" to="/Quote">Quote</NavLink>
+        <NavLink className="link" to="/quote">Quote</NavLink>
       </nav>
     </header>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="calculator" element={<Calculator />} />
+      <Route path="quote" element={<Quote />} />
     </Routes>
   </>
 );
