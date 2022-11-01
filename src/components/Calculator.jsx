@@ -4,24 +4,24 @@ import calculate from '../logic/calculate';
 
 const Buttons = ({ myFunction }) => (
   <>
-    <button onClick={myFunction} type="button" className="gray-button">AC</button>
-    <button onClick={myFunction} type="button" className="gray-button">+/-</button>
-    <button onClick={myFunction} type="button" className="gray-button">%</button>
+    <button onClick={myFunction} type="button" className="blue-button">AC</button>
+    <button onClick={myFunction} type="button" className="blue-button">+/-</button>
+    <button onClick={myFunction} type="button" className="blue-button">%</button>
     <button onClick={myFunction} type="button" className="orange-button">÷</button>
-    <button onClick={myFunction} type="button" className="gray-button">7</button>
-    <button onClick={myFunction} type="button" className="gray-button">8</button>
-    <button onClick={myFunction} type="button" className="gray-button">9</button>
+    <button onClick={myFunction} type="button" className="blue-button">7</button>
+    <button onClick={myFunction} type="button" className="blue-button">8</button>
+    <button onClick={myFunction} type="button" className="blue-button">9</button>
     <button onClick={myFunction} type="button" className="orange-button">x</button>
-    <button onClick={myFunction} type="button" className="gray-button">4</button>
-    <button onClick={myFunction} type="button" className="gray-button">5</button>
-    <button onClick={myFunction} type="button" className="gray-button">6</button>
+    <button onClick={myFunction} type="button" className="blue-button">4</button>
+    <button onClick={myFunction} type="button" className="blue-button">5</button>
+    <button onClick={myFunction} type="button" className="blue-button">6</button>
     <button onClick={myFunction} type="button" className="orange-button">-</button>
-    <button onClick={myFunction} type="button" className="gray-button">1</button>
-    <button onClick={myFunction} type="button" className="gray-button">2</button>
-    <button onClick={myFunction} type="button" className="gray-button">3</button>
+    <button onClick={myFunction} type="button" className="blue-button">1</button>
+    <button onClick={myFunction} type="button" className="blue-button">2</button>
+    <button onClick={myFunction} type="button" className="blue-button">3</button>
     <button onClick={myFunction} type="button" className="orange-button">+</button>
-    <button onClick={myFunction} type="button" className="gray-button large">0</button>
-    <button onClick={myFunction} type="button" className="gray-button">.</button>
+    <button onClick={myFunction} type="button" className="blue-button large">0</button>
+    <button onClick={myFunction} type="button" className="blue-button">.</button>
     <button onClick={myFunction} type="button" className="orange-button">=</button>
   </>
 );
@@ -45,7 +45,7 @@ const Calculator = () => {
     <>
       <section className="calculator-container">
         <div className="calculator">
-          <div className="gray-box">
+          <div className="result-box">
             <p>
               {total}
               {operation}

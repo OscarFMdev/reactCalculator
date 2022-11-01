@@ -44,12 +44,12 @@ nav > * {
 }
 
 .calculator,
-.gray-box,
+.result-box,
 .operation-grid {
   min-width: 270px;
 }
 
-.gray-box,
+.result-box,
 .operation-grid {
   max-width: 500px;
 }
@@ -70,7 +70,7 @@ nav > * {
   align-items: center;
 }
 
-.gray-box {
+.result-box {
   width: 50vw;
   height: 10vh;
   display: flex;
@@ -80,7 +80,7 @@ nav > * {
   overflow: hidden;
 }
 
-.gray-box p {
+.result-box p {
   font-size: 40px;
   margin: 0;
   color: white;
@@ -105,9 +105,9 @@ nav > * {
   font-size: 40px;
 }
 
-.gray-button,
+.blue-button,
 .orange-button,
-.gray-box {
+.result-box {
   background-color: transparent;
   color: white;
   border: 1px solid var(--reactBlue);
@@ -118,8 +118,8 @@ nav > * {
   background-color: var(--orangeButton);
 }
 
-.gray-button:hover,
-.gray-button:active {
+.blue-button:hover,
+.blue-button:active {
   background-color: var(--reactBlue);
 }
 
