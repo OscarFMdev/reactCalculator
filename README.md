@@ -28,13 +28,17 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 To get a local copy, you should have installed a code editor like [Visual Studio Code](https://code.visualstudio.com/download), [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads).
 ### Setup
-To setup a local copy, you should open a terminal in the directory you want to clone this project and run:
-``` git clone git@github.com:OscarFMdev/mathMagicians.git ```
+- Clone the repository using: ``` git clone git@github.com:OscarFMdev/mathMagicians.git ```
+- Change directory into the project folder using: ```cd mathMagicians ``
 ### Install
-After setting the project, now you should run ``` npm install ``` this will download all the dependecies needed for run this project.
+- After setting the project, run ``` npm install ```.
+- A new browser will open automatically with application loaded-
 
 ### Usage
-This is a Single Page Application, so you could navigate this App by clicking on the different sections in the navigation bar.
+This is a Single Page Application, so you could navigate this App by clicking on the different sections in the navigation bar, this App includes the following sections:
+- **Home:** This sections is a welcome message to the App.
+- **Calculator:** This section is a calculator where you can do math operations.
+- **Quote:** This section gives a random quote about math, using an API from heroku.
 
 #### Available Scripts
 
