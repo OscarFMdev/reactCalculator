@@ -208,5 +208,13 @@ nav > * {
   .calc-quote {
     margin: 20px 0;
     text-align: center;
+    font-size: 25px;
+  }
+  .home {
+    margin-top: 20px;
+    text-align: justify;
+  }
+  .home > * {
+    margin: 10px auto;
   }
 }
