@@ -19,4 +19,23 @@ describe('calculate', () => {
     /* Assert */
     expect(result.total).toBe('12');
   });
+
+  /* RENDERING TESTS */
+  test('should create a div element containing the result', () => {
+    /* Arrange */
+    const obj = {
+      total: 7,
+      next: 5,
+      operation: '+',
+    };
+
+    /* Act */
+    const result = calculate(obj, obj.operation);
+    const { container } = render(result.total);
+
+    /* Assert */
+    expect(container).toMatchSnapshot();
+  });
+
+  /* USER INTERACTION */
 });
