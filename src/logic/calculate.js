@@ -73,8 +73,11 @@ export default function calculate(obj, buttonName) {
         operation: null,
       };
     }
-    // '=' with no operation, nothing to do
-    return {};
+    return {
+      total: 0,
+      next: null,
+      operation: null,
+    };
   }
 
   if (buttonName === '+/-') {
@@ -83,6 +86,9 @@ export default function calculate(obj, buttonName) {
     }
     if (obj.total) {
       return { ...obj, total: (-1 * parseFloat(obj.total)).toString() };
+    }
+    if (obj.total === 0) {
+      return { ...obj, total: parseFloat(0).toString() };
     }
     return {};
   }
