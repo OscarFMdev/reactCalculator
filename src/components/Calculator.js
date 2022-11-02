@@ -54,7 +54,7 @@ const Calculator = () => {
             </p>
           </div>
           <ul className="operation-grid">
-            <Buttons myFunction={handleClick} greet="Hello" />
+            <Buttons myFunction={handleClick} />
           </ul>
         </div>
       </section>
