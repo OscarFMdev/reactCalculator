@@ -109,6 +109,7 @@ nav > * {
   margin: 0;
   color: white;
   margin-right: 20px;
+  letter-spacing: 0.5rem;
 }
 
 .operation-grid {
@@ -180,9 +181,13 @@ nav > * {
 }
 
 @media screen and (max-width: 700px) {
-  .blue-box p,
+  .result-box p,
   .operation-grid > * {
     font-size: 25px;
+  }
+
+  .result-box p {
+    letter-spacing: 3px;
   }
 
   header {
@@ -220,5 +225,9 @@ nav > * {
 
   .home > * {
     margin: 10px auto;
+  }
+
+  .quote {
+    width: 90vw;
   }
 }
