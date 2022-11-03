@@ -1,5 +1,4 @@
-import { fireEvent, render, screen } from '@testing-library/react';
-import Calculator from '../../components/Calculator';
+import { render, screen } from '@testing-library/react';
 import operate from '../../logic/operate';
 
 describe('Operate tests', () => {
@@ -41,20 +40,5 @@ describe('Operate tests', () => {
 
     /* Assert */
     expect(screen.getByText(result)).toBeDefined();
-  });
-
-  /* USER INTERACTION */
-  test('should modify the result-box content after user pressing the buttons "7"', () => {
-    /* Arrange */
-    const { container } = render(<Calculator />);
-    const buttons = container.querySelectorAll('button');
-    const buttonSeven = buttons[4];
-
-    /* Act */
-    fireEvent.click(buttonSeven);
-    const resultBox = container.querySelector('.result-box > p').innerHTML;
-
-    /* Assert */
-    expect(resultBox).toBe('7');
   });
 });
