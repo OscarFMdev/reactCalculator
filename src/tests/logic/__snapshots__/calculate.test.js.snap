@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculate should create a div element containing the result 1`] = `
+<div>
+  12
+</div>
+`;

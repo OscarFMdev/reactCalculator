@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 To get a local copy, you should have installed a code editor like [Visual Studio Code](https://code.visualstudio.com/download), [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads).
-### Setup
+### Clone this repository
 - Clone the repository using: ``` git clone git@github.com:OscarFMdev/mathMagicians.git ```
 - Change directory into the project folder using: ```cd mathMagicians ``
 ### Install
@@ -39,48 +39,6 @@ This is a Single Page Application, so you could navigate this App by clicking on
 - **Home:** This sections is a welcome message to the App.
 - **Calculator:** This section is a calculator where you can do math operations.
 - **Quote:** This section gives a random quote about math, using an API from heroku.
-
-#### Available Scripts
-
-In the project directory, you can run:
-
-##### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-##### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-##### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-##### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-### Run tests
-To run the test you could run the command ```npm run test```
-### Deployment
-For deployment you could run the command ```npm run dev``` this will give you a port where the project is deployed and the you should copy and paste in your favorite browser.
-
 
 ## Authors
 
@@ -100,7 +58,7 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+<!-- ## Acknowledgments -->
 
 
 ## 📝 License
