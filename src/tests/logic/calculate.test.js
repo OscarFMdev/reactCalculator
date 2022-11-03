@@ -14,7 +14,7 @@ describe('calculate', () => {
       total,
       next,
       operation,
-    }, operation);
+    }, '=');
 
     /* Assert */
     expect(result.total).toBe('12');
@@ -36,6 +36,4 @@ describe('calculate', () => {
     /* Assert */
     expect(container).toMatchSnapshot();
   });
-
-  /* USER INTERACTION */
 });
