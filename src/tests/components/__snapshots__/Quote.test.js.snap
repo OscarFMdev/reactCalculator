@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote should render 1`] = `
+<div>
+  <section
+    class="quote-section"
+  >
+    <p
+      class="quote"
+    >
+       
+    </p>
+    <p
+      class="author"
+    >
+       
+    </p>
+    <button
+      type="button"
+    >
+      New quote
+    </button>
+  </section>
+</div>
+`;
