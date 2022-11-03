@@ -30,7 +30,7 @@ const Calculator = () => {
             </p>
           </div>
           <ul className="operation-grid">
-            <Buttons myFunction={handleClick} />
+            <Buttons handleClick={handleClick} />
           </ul>
         </div>
       </section>
