@@ -1,4 +1,5 @@
 import { useCallback, useState, useEffect } from 'react';
+import quoteAPI from '../helpers/quoteAPI';
 
 const Quote = () => {
   const [quote, setQuote] = useState({
@@ -6,18 +7,9 @@ const Quote = () => {
     content: '',
   });
 
-  const fetchData = useCallback(() => {
-    fetch('https://random-math-quote-api.herokuapp.com/')
-      .then((response) => response.json())
-      .then((json) => {
-        setQuote(
-          {
-            author: json.author,
-            content: json.quote,
-          },
-        );
-      })
-      .catch((error) => error);
+  const fetchData = useCallback(async () => {
+    const { author, content } = await quoteAPI();
+    setQuote({ author, content });
   }, []);
 
   useEffect(() => {
