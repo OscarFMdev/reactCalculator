@@ -28,6 +28,10 @@ const Home = () => (
         This section is for displaying a quote about Math.
       </p>
     </section>
+    <div className="code-authors">
+      <a className="code-author" href="https://linkedin.com/in/OscarFMdev">@OscarFMdev</a>
+      <a className="code-author" href="https://www.linkedin.com/in/javier-alejandro-vargas-ortega">@Javivy</a>
+    </div>
 
   </>
 );

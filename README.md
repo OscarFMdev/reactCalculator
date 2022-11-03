@@ -18,27 +18,42 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Demo
 
-Not yet available [we are working on it](https://giphy.com/gifs/reactionseditor-cat-typing-ule4vhcY1xEKQ)
+[Live Demo (Netlify)](https://oscarfmdev-calculator.netlify.app/)
+
 
 
 ## Getting Started
+To get a local copy up and running follow these simple example steps. (NPM)
+1. Open your terminal
+2. Navigate to the directory where you want your project cloned
+3. Clone the project using `git clone` or just copy the command below:
+```  
+   git clone https://github.com/OscarFMdev/mathMagicians.git
+```   
+4. Open the project with your IDE like [Visual Studio Code](https://code.visualstudio.com/download)
+5. Run `npm install` to get the dependencies
 
-To get a local copy up and running follow these simple example steps.
+   not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+6. Run webpack:
+- Production:
+   ``` 
+      npm run build
+   ```  
+- Development:
+  ```
+   npm run start
+  ```
+  not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 ### Prerequisites
-To get a local copy, you should have installed a code editor like [Visual Studio Code](https://code.visualstudio.com/download), [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads).
-### Clone this repository
-- Clone the repository using: ``` git clone git@github.com:OscarFMdev/mathMagicians.git ```
-- Change directory into the project folder using: ```cd mathMagicians ``
-### Install
-- After setting the project, run ``` npm install ```.
-- A new browser will open automatically with application loaded-
+- Having an IDE .
+- Having Git installed and configured.
 
-### Usage
-This is a Single Page Application, so you could navigate this App by clicking on the different sections in the navigation bar, this App includes the following sections:
-- **Home:** This sections is a welcome message to the App.
-- **Calculator:** This section is a calculator where you can do math operations.
-- **Quote:** This section gives a random quote about math, using an API from heroku.
+### Setup
+- Clone the repository
+- Open the folder with your IDE
+- Get the dependencies with `npm install` 
+  - not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 ## Authors
 

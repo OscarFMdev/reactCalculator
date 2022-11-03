@@ -42,6 +42,7 @@ nav > * {
   font-size: 19px;
 }
 
+/* HOME */
 .home {
   display: flex;
   flex-direction: column;
@@ -49,6 +50,24 @@ nav > * {
   align-items: center;
   margin-top: 100px;
   font-size: 130%;
+}
+
+.code-authors {
+  display: flex;
+  justify-content: center;
+}
+
+.code-author {
+  text-decoration: none;
+  text-align: center;
+}
+
+.code-author:nth-child(1) {
+  margin-right: 50px;
+}
+
+.code-author:hover {
+  color: var(--orangeButton);
 }
 
 .link:hover,
