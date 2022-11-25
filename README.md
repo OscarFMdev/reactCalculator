@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians
+# React Calculator
 
-"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+"React Calculators" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 Make simple calculations.
 Read a random math-related quote.
@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps. (NPM)
 2. Navigate to the directory where you want your project cloned
 3. Clone the project using `git clone` or just copy the command below:
 ```  
-   git clone https://github.com/OscarFMdev/mathMagicians.git
+   git clone https://github.com/OscarFMdev/react-calculator.git
 ```   
 4. Open the project with your IDE like [Visual Studio Code](https://code.visualstudio.com/download)
 5. Run `npm install` to get the dependencies
