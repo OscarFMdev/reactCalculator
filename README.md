@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-<img src="1669417599375.jpg" alt="logo" width="140"  height="auto" />
+
 <br/>
 # React Calculator
 
@@ -16,6 +16,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - React
 - JSX
 - CSS
+
+## APP screenshot:
+<img src="1669417599375.jpg" alt="logo" width="440"  height="auto" />
 
 ## Live Demo
 
