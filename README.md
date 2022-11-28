@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-<img src="1669417599375.png" alt="logo" width="140"  height="auto" />
+<img src="1669417599375.jpg" alt="logo" width="140"  height="auto" />
 <br/>
 # React Calculator
 
