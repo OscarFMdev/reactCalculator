@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
+<img src=".png" alt="logo" width="140"  height="auto" />
+<br/>
 # React Calculator
 
 "React Calculators" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
